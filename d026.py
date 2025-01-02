@@ -1,4 +1,6 @@
-#Faça um programa que leia uma frase pelo teclado e mostre : quantas vezses aparece a letra 'a' em que posição ela aprece a ultima vez e na primeira vez#
+# Faça um programa que leia uma frase pelo teclado e mostre: quantas vezes aparece a letra 'a',
+# em que posição ela aparece pela última vez e pela primeira vez.
+
 name = str(input('Informe seu nome completo : ')).upper().strip()
 qtsA = name.count('A')
 primeiroA = name.find('A') + 1

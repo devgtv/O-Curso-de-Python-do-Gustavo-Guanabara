@@ -1,4 +1,5 @@
-#faça um programa que leia um número inteiro qualquer e mostre  na tela a sua tabuada #
+# Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
+
 n = int(input('Informe o número para visualizar a sua tabuada :'))
 print('===================')
 print(f'{n} x 1 = {n*1}')

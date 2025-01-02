@@ -1,5 +1,7 @@
-#Faça um programa que leia um numero de 0 a 9999 e mostre na tela cada um dos digitos separados#
-#ex : digite um nummero : 1843# unidade 4 dezena 3 centana 8 milhar 1
+# Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados.
+# Ex: Digite um número: 1843
+# EXEMPLO :  Unidade: 3, Dezena: 4, Centena: 8, Milhar: 1
+
 num = int(input('Informe  um número :'))
 u = num // 1 % 10
 d = num // 10 % 10

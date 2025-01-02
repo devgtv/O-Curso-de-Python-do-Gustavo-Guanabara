@@ -1,6 +1,7 @@
-#Escreva um programa que pergunte o salario de um funcionario e calcule o valor do seu aumento
-#para salarios superiores a 1.250,00, calcule um aumento de 10%
-# para os inferiores ou iguais, o aumento é de 15%
+# Escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento.
+# Para salários superiores a R$ 1.250,00, calcule um aumento de 10%.
+# Para salários inferiores ou iguais a R$ 1.250,00, o aumento será de 15%.
+
 salario = float(input('Informe o salário do funcionario : '))
 ajuste1 = (salario*10/100) + salario
 ajuste2 = (salario*15/100) + salario

@@ -1,6 +1,7 @@
-# desenvolva um programa que pergunte a distancia de uma viagem em km 
-#calcule o preço da passagem, cobrando 0.50 po km para viagens de ate 200 km
-# e 0.45 para viagens mais longas.
+# Desenvolva um programa que pergunte a distância de uma viagem em km.
+# Calcule o preço da passagem, cobrando R$ 0,50 por km para viagens de até 200 km
+# e R$ 0,45 para viagens mais longas.
+
 distancia = float(input('Informe a distancia de sua viagem em km '))
 menor = distancia * 0.50
 maior = distancia * 0.45

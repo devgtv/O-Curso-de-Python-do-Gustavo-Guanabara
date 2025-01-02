@@ -1,4 +1,5 @@
-#Faça um programa que leia um angulo qualquer e mostre na tela o valor do seno cosseno e tangente desse angulo.
+# Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo.
+
 num = float(input('Digite um número : '))
 from math import sin,cos,tan,radians    
 num_rad = radians(num)
